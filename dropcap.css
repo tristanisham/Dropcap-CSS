@@ -15,22 +15,3 @@ color: #323232;
 letter-spacing: 0;
 text-shadow: 0 2px 4px rgba(0,0,0,0.50);
 }
-
-.dc-futura-bold-shadow-thick
-{
-font-family: Futura-Bold;
-font-size: 200px;
-color: #727070;
-letter-spacing: 0;
-text-shadow: 0 2px 4px rgba(0,0,0,0.50);
-/* D: */
-font-family: Futura-Bold;
-font-size: 200px;
-color: #323232;
-letter-spacing: 0;
-}
-
-.dc-futura-bold-flacon
-{
-background: #313131;
-}
