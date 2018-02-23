@@ -1,0 +1,17 @@
+.dc-hotrod
+{
+border: 1px solid #FFFD00;
+font-family: Futura-Bold;
+font-size: 200px;
+color: #323232;
+letter-spacing: 0;
+}
+
+.dc-shadow-light
+{
+font-family: Futura-Bold;
+font-size: 200px;
+color: #323232;
+letter-spacing: 0;
+text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+}
