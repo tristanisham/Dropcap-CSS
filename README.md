@@ -13,6 +13,33 @@ Just download/pull the css file, or use the sketch file attached to customize yo
 All of the styles are *classes*, and currently I'm working on the naming structure. Right now though, if you want to impliment a style, the basic format is:
 ```.dc-yourdesiredstyle ```.
 
+## How to impliment it in HTML
+
+From the lovely [CSS Tricks](https://css-tricks.com/snippets/css/drop-caps/)
+
+> 
+### HTML
+```
+<p>
+<span class="dc-firstcharacter">L</span> orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tristique lobortis orci ac lacinia. Fusce eu purus eget diam vehicula auctor nec eu elit. Morbi consequat facilisis orci vel malesuada. Donec ultrices molestie sollicitudin. Aliquam pharetra libero enim. Donec et suscipit massa. Donec dui odio, dignissim non sodales et, tincidunt a sapien. Phasellus elit nibh, adipiscing sed blandit vel, interdum et arcu.
+</p>
+```
+### CSS
+```
+.dc-firstcharacter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+```
+
+<hr>
+
 If you want to see more of my work, this is [my website](https://tristanisham.com). I'll make this more readable later. It's 1:48 in the morning and I'm exhausted.
 
 Also, follow me on [Twitter](https://twitter.com/TristanIsham).
